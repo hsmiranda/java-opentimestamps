@@ -159,7 +159,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>3.1.1</version>
+                <version>3.11.2</version>
                 <executions>
                     <execution>
                         <id>attach-javadocs</id>
@@ -167,12 +167,8 @@
                             <goal>jar</goal>
                         </goals>
                         <configuration>
-                            <use>false</use>
-                            <source>1.8</source>
-                                <links>
-                                    <link>http://docs.oracle.com/javase/7/docs/api/</link>
-                                </links>
                             <doclint>none</doclint>
+                            <legacyMode>true</legacyMode>
                         </configuration>
                     </execution>
                 </executions>
