@@ -1,11 +1,43 @@
-out/
-.idea/
+# Build / output
 target/
-.DS_Store
+out/
+
+# Project & local secrets
 settings.xml
 deploy.sh
 key.wif
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains (IntelliJ IDEA, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
 /.settings/
 /.classpath
 /.project
-*.iml
+
+# Visual Studio Code & Cursor
+.vscode/
+.cursor/
+.cursorrules
+
+# Google Antigravity
+.agent/
+.gemini/
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+*.sw?
+*~
+.netrwhist
+Session.vim
+Sessionx.vim
